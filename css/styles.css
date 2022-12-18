@@ -439,6 +439,7 @@ margin-bottom: 16px;
 .footer {
     margin-right: 120px;
 }
+
 .footer-text {
     width: 264px;
     line-height: 1.5;
@@ -449,6 +450,7 @@ margin-bottom: 16px;
 .footer-media {
     display: flex;
     flex-direction: column;
+    margin-left: 120px;
 }
 
 .media-links {
@@ -456,9 +458,10 @@ margin-bottom: 16px;
     margin-top: 16px;
 }
 
-.footer-contant {
+.footer-content {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .media-list {
@@ -466,7 +469,7 @@ color: var(--white-text-color);
 }
 
 .footer-button {
-    background-color: #FFFFFF 10%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .visually-hidden { 
@@ -537,8 +540,12 @@ color: var(--white-text-color);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.project-item:hover {
+.projects:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.projects {
+    display:block;
 }
 
 .project-item:nth-child(3n) {
